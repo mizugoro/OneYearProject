@@ -12,8 +12,6 @@ int main(int argc, char *argv[])
     for (int i = 1; i < argc; i++)
     {
         int value = 0;
-        /*未実装:文字列を検出するプログラム*/
-
         value = atoi(argv[i]);
         sum += value;
     }
